@@ -1,0 +1,95 @@
+csync2 (1.34-2.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix erroneous distribution tag in changelog.
+
+ -- Kumar Appaiah <akumar@debian.org>  Mon, 31 Aug 2009 11:29:12 -0500
+
+csync2 (1.34-2.1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * Alter configure script and control to use pkg-config
+    to find the gnutls version. (Closes: #529819)
+
+ -- Kumar Appaiah <akumar@debian.org>  Sat, 22 Aug 2009 23:58:17 -0500
+
+csync2 (1.34-2) unstable; urgency=low
+
+  * New maintainers. (closes: #500351)
+  * Add inetd dependencies. (closes: #488279)
+
+ -- Norbert Tretkowski <nobse@debian.org>  Thu, 09 Apr 2009 12:37:36 +0200
+
+csync2 (1.34-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Sun, 12 Aug 2007 12:16:35 +0200
+
+csync2 (1.33-2) unstable; urgency=low
+
+  * put paper.pdf into /usr/share/doc/csync2/ (closes: 359260).
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Sun, 20 Aug 2006 20:27:27 +0300
+
+csync2 (1.33-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Mon, 14 Aug 2006 15:00:26 +0300
+
+csync2 (1.32-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Wed, 26 Apr 2006 10:55:29 +0200
+
+csync2 (1.31-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Mon,  3 Apr 2006 23:40:41 +0200
+
+csync2 (1.30-3) unstable; urgency=low
+
+  * typo in debian/control
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Tue, 28 Mar 2006 16:05:52 +0200
+
+csync2 (1.30-2) unstable; urgency=low
+
+  * Added dep on netbase>=4.25 to avoid spoiling /etc/services (closes:
+    351942).
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Tue, 28 Mar 2006 15:15:06 +0200
+
+csync2 (1.30-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Sat,  4 Feb 2006 09:37:37 +0300
+
+csync2 (1.29-3) unstable; urgency=low
+
+  * debian/control: removed Build-Depends to libc6-dev (closes: #346025).
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Thu,  5 Jan 2006 09:14:32 +0300
+
+csync2 (1.29-2) unstable; urgency=low
+
+  * debian/control: added missing Build-Depends to flex (closes: 345965).
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Wed,  4 Jan 2006 18:15:59 +0300
+
+csync2 (1.29-1) unstable; urgency=low
+
+  * New upstream release : replaced OpenSSL library with GNU TLS library
+    in order to fix legal issues.
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Mon,  2 Jan 2006 18:50:35 +0300
+
+csync2 (1.28-1) unstable; urgency=low
+
+  * Initial release (closes: #344532).
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Sat, 24 Dec 2005 15:46:13 +0300

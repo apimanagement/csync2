@@ -1,0 +1,16 @@
+This package was debianized by Cyril Bouthors <cyril@bouthors.org> on
+Sat, 24 Dec 2005 15:46:13 +0300.
+
+It was downloaded from http://oss.linbit.com/csync2/
+
+Copyright Holder: Cliffor Wolf <clifford.wolf@linbit.com>
+
+License:
+
+Csync2 is free software; you can redistribute them and/or modify them
+under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 2 of the License, or (at your
+option) any later version.
+
+On Debian systems, the complete text of the GNU General Public
+License can be found in /usr/share/common-licenses/GPL file.

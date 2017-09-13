@@ -1,0 +1,9 @@
+on debian 7
+
+echo -e '#!/bin/bash\npkg-config $1 gnutls' | sudo tee /usr/bin/libgnutls-config
+sudo chmod +x /usr/bin/libgnutls-config
+sudo apt-get install make gcc libgnutls-dev gnutls-bin librsync-dev libsqlite3-dev pkg-config autoconf dpkg-dev libsqlite-dev byacc flex
+cd csync2-1.34
+./configure
+make && (tar cf - csync2 | ssh $IP1 sudo tar xf - -C /usr/sbin ;  tar cf - csync2 | ssh $IP2 sudo tar xf - -C /usr/sbin ;  tar cf - csync2 | ssh $IP3 sudo tar xf - -C /usr/sbin)
+
